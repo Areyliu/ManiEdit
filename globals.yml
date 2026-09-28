@@ -1,0 +1,10 @@
+---
+  # Result files
+  RESULTS_DIR: "results"
+
+  # Data files
+  DATA_DIR: "data"
+  STATS_DIR: "data/stats"
+
+  # Hyperparameters
+  HPARAMS_DIR: "hparams"

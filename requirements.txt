@@ -1,0 +1,15 @@
+# Python 3.10. Versions match the EasyEdit environment except torch
+# (EasyEdit uses a local CUDA 13 wheel; any recent CUDA build is fine).
+torch>=2.1
+transformers==4.57.1
+tokenizers==0.22.1
+datasets==1.18.3
+sentencepiece==0.2.0
+numpy==2.2.6
+scikit-learn==1.7.2
+nltk==3.6.5
+rouge==1.0.1
+sentence-transformers==3.2.1
+PyYAML==6.0
+tqdm==4.62.3
+pyarrow==18.1.0

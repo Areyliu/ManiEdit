@@ -1,0 +1,16 @@
+from pathlib import Path
+
+import yaml
+
+with open(Path(__file__).resolve().parents[1] / "globals.yml", "r") as stream:
+    data = yaml.safe_load(stream)
+
+(RESULTS_DIR, DATA_DIR, STATS_DIR, HPARAMS_DIR) = (
+    Path(z)
+    for z in [
+        data["RESULTS_DIR"],
+        data["DATA_DIR"],
+        data["STATS_DIR"],
+        data["HPARAMS_DIR"],
+    ]
+)
